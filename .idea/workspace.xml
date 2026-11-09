@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3cb09b5-ddac-4a89-9961-bb903f37ebc7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000044124152894" />
+      <entry key="MS500" value="1.0869810021581074" />
+      <entry key="S2" value="1.8168914286484754" />
+      <entry key="S5" value="2.674442635992607" />
+      <entry key="S10" value="3.424385822059658" />
+      <entry key="S30" value="5.093737004036475" />
+      <entry key="S60" value="6.191054353710885" />
+      <entry key="M2" value="7.66851856423191" />
+      <entry key="M5" value="16.578985229024685" />
+      <entry key="M10" value="33.625621152476256" />
+      <entry key="M15" value="49.20580246117301" />
+      <entry key="M30" value="95.8504022797997" />
+      <entry key="H1" value="169.62969748662314" />
+      <entry key="H2" value="245.48831927294188" />
+      <entry key="H4" value="301.98580330585077" />
+      <entry key="D1" value="362.9473924755083" />
+      <entry key="W1" value="374.95046814576426" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.7931080535695622E-120" />
+      <entry key="S5" value="1.5081172060388628E-48" />
+      <entry key="S10" value="1.2280571269341855E-24" />
+      <entry key="S30" value="1.0851227506938373E-8" />
+      <entry key="S60" value="1.1551094004460875E-4" />
+      <entry key="M2" value="0.013931073554641939" />
+      <entry key="M5" value="0.3023505695675735" />
+      <entry key="M10" value="0.9215751026027282" />
+      <entry key="M15" value="1.3770647987835019" />
+      <entry key="M30" value="2.3253564359308885" />
+      <entry key="H1" value="3.6804789236066453" />
+      <entry key="H2" value="5.173512003153339" />
+      <entry key="H4" value="6.3546525547068065" />
+      <entry key="D1" value="7.685730428689133" />
+      <entry key="W1" value="7.954001599163206" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9201916549762718" />
+      <entry key="MS500" value="1.0688168667184987" />
+      <entry key="S2" value="1.8089784116309344" />
+      <entry key="S5" value="2.6697111014965422" />
+      <entry key="S10" value="3.418349383264094" />
+      <entry key="S30" value="5.072563280403027" />
+      <entry key="S60" value="6.169558318566439" />
+      <entry key="M2" value="7.664648048325886" />
+      <entry key="M5" value="16.85791099189629" />
+      <entry key="M10" value="34.51877277185402" />
+      <entry key="M15" value="50.55428152647254" />
+      <entry key="M30" value="98.14911435408601" />
+      <entry key="H1" value="173.28807161717847" />
+      <entry key="H2" value="250.64638647168437" />
+      <entry key="H4" value="308.3311042087927" />
+      <entry key="D1" value="370.6312709687237" />
+      <entry key="W1" value="382.90419691966247" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3Ls4wD1avdbYGb1gqBLOFMwCYHJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.catalogue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/louis/Python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CartoMobilite" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-34611be1ca5a-e0583fc556d1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-263.7307.206" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cb09b5-ddac-4a89-9961-bb903f37ebc7" name="Changes" comment="" />
+      <created>1794229677502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794229677502</updated>
+      <workItem from="1794229678513" duration="7877000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$tests.coverage" NAME="tests Coverage Results" MODIFIED="1794238350250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CartoMobilite/tests" />
+    <SUITE FILE_PATH="coverage/Python$functions.coverage" NAME="functions Coverage Results" MODIFIED="1794233943633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/Python$catalogue.coverage" NAME="catalogue Coverage Results" MODIFIED="1794238117319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CartoMobilite/src" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1794234778137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+  </component>
+</project>
