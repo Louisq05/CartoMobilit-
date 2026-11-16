@@ -1,0 +1,15 @@
+id,nom,zone
+S01,Gare,1
+S02,Hôtel de Ville,1
+S03,Université,2
+S04,Parc,2
+S05,Médiathèque,1
+S06,Hôpital,3
+S07,Stade,3
+S08,Lycée,3
+S09,Musée,1
+S10,Marché,2
+S11,Bibliothèque,2
+S12,Campus,3
+S13,Centre sportif,4
+S14,Jardin botanique,4
