@@ -14,41 +14,47 @@ def filtrer_stations(noms: list[str] | None, motif: str | None, casse: bool = Tr
     if not casse:
         motif = motif.lower()
         return sum(motif in nom.lower() for nom in noms)
-    return sum(nom.startswith(motif) for nom in noms)
+    return sum(motif in nom for nom in noms)  # corrigé : startswith -> in
 
 def charger_arrets(chemin: str = "/home/louis/Documents/Python/CartoMobilite/data/arrets_l5_l8") -> list[str]:
     with open(chemin, encoding="utf-8") as f:
         return [ligne.strip() for ligne in f if ligne.strip()]
 
-def charger_stations(path: str) :
-    with open(path, # ouverture du csv
+def charger_stations(path) -> list[dict]:
+    with open(path,  # ouverture du csv
               encoding="utf-8",
-              newline="") as f :
-        lecteur = csv.DictReader(f) # création dict
-        stations = list(lecteur) # création list de dict
+              newline="") as f:
+        lecteur = csv.DictReader(f)  # création dict
+        colonnes = lecteur.fieldnames or []
 
-        if list(stations[0].keys()) != ["id", "nom", "zone"] : # verif présence des colonnes blgrt
-            return None
+        # vérif présence des colonnes obligatoires
+        manquantes = {"id", "nom", "zone"} - set(colonnes)
+        if manquantes:
+            raise ValueError(f"Colonnes manquantes : {sorted(manquantes)}")
 
-        list_ids = []
-        for station in stations :
-            if station["id"] == "" :
-                return None
-            list_ids.append(station["id"])
+        stations = list(lecteur)  # liste de dict
 
-        if len(list_ids) != len(set(list_ids)):
-            return None
+    ids_vus = set()
+    for station in stations:
+        if not station["id"] or not station["id"].strip():
+            raise ValueError("Identifiant vide")
+        if station["id"] in ids_vus:
+            raise ValueError(f"Identifiant dupliqué : {station['id']}")
+        ids_vus.add(station["id"])
 
-        return stations
+    return stations
 
-def index_par_id(stations) :
-    index_par_id = {}
-    list_ids = []
-    for station in stations :
-        index_par_id[station["id"]] = { station["nom"] : station["zone"] }
-        list_ids.append(station["id"])
+def index_par_id(stations: list[dict]) -> dict[str, dict]:
+    index = {}
+    for station in stations:
+        code = station["id"]
+        if code in index:
+            raise ValueError(f"Identifiant dupliqué : {code}")
+        index[code] = station  # station complète, pas {nom: zone}
+    return index
 
-        if len(list_ids) != len(set(list_ids)):
-            return None
-
-    return index_par_id
+def zones_uniques(stations) -> set[str]:
+    zones = set()
+    for station in stations:
+        zones.add(station["zone"])  # zones gardées en chaînes (contrat du projet)
+    return zones
