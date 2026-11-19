@@ -58,3 +58,28 @@ def zones_uniques(stations) -> set[str]:
     for station in stations:
         zones.add(station["zone"])  # zones gardées en chaînes (contrat du projet)
     return zones
+
+def rechercher_nom(stations, texte): # recherche partielle
+    resultat = []
+    terme = texte.casefold()
+    for station in stations:
+        nom = station["nom"]
+        if terme in nom.casefold():
+            resultat.append(station)
+    return resultat
+
+
+def recherche_dichotomique(noms_tries, cible):
+    gauche = 0
+    droite = len(noms_tries) - 1
+    cible_norm = cible.casefold()
+    while gauche <= droite:
+        milieu = (gauche + droite) // 2
+        nom = noms_tries[milieu].casefold()
+        if nom == cible_norm:
+            return milieu
+        if nom < cible_norm:
+            gauche = milieu + 1
+        else:
+            droite = milieu - 1
+    return -1

@@ -83,21 +83,5 @@ print("TEST02 : zones_uniques, 4 zones distinctes OK")
 assert zones_uniques(doublons) == {"1", "2"}
 print("TEST02 : zones_uniques, doublons de zones éliminés OK")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print("---------------------------------------------------------")
 print("TOUS LES TESTS SONT PASSÉS")
